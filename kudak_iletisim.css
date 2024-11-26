@@ -1,0 +1,3410 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-box {
+    float: left;
+}
+
+.logo-box .logo {
+    font-size: 2.1rem;
+    color: #fff;
+    transition: 0.4s color;
+    margin-left: 4.5rem;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links .nav-item {
+    float: left;
+    margin-left: 4.2rem;
+}
+
+.nav-links .nav-link {
+    font-size: 2.1rem;
+    color: #fff;
+    display: block;
+    transition: 0.4s color;
+}
+
+.nav-links .nav-link:hover {
+    color: black;
+}
+
+.nav-links .nav-icon {
+    display: none;
+}
+
+.logo-box .logo:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 3rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 9.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 3rem;
+        padding-top: 3rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1440px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 3rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1393px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1353px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1311px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1293px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.8rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 36%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1260px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1230px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1208px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1167px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1134px) {
+
+    html {
+        font-size: 9.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1102px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1060px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.7rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.5rem;
+        padding-top: 2.5rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.6rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 1000px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.3rem;
+        padding-top: 2.3rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.6rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 960px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 5.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 65rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.2rem;
+        padding-top: 2.2rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.5rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 65rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 930px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.2rem;
+        padding-top: 2.2rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.5rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 890px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.2rem;
+        padding-top: 2.2rem;
+        margin-top: 20rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.5rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 861px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 22rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 838px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 3.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 22rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 837px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 22rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 23rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 744px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 69rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 24rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 69rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 75.5rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 27rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.1rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 75.5rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 675px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 75.5rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 27rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 2.1rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 75.5rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 633px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 75.5rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 27rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 1.9rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 75.5rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 425px) {
+
+    html {
+        font-size: 5.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 91.7rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 36rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 1.9rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 91.7rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    html {
+        font-size: 5.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 97.8rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 39rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 25%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 1.9rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 97.8rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+    html {
+        font-size: 5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .arka-plan{
+        background-image: url(Görseller/climbing.webp);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        width: 100%;
+        height: 102.1rem;
+    }
+
+    .box{
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        position: relative;
+        z-index: 500;
+        padding-bottom: 2.1rem;
+        padding-top: 2.1rem;
+        margin-top: 40rem;
+        border-radius: 20px;
+        border: 2px solid black;
+        width: 26%;
+        left: 38%;
+    }
+
+    .box .baslik{
+        text-align: center;
+        opacity: 100%;
+        font-size: 1.8rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 102.1rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+
+}
+
+
+     
+
+
+
+
+
+
+
+
+
+
+
+

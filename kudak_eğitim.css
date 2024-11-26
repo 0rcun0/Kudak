@@ -1,0 +1,4032 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-box {
+    float: left;
+}
+
+.logo-box .logo {
+    margin-left: 4.5rem;
+    font-size: 2.1rem;
+    color: #fff;
+    transition: 0.4s color;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links .nav-item {
+    float: left;
+    margin-left: 4.2rem;
+}
+
+.nav-links .nav-link {
+    font-size: 2.1rem;
+    color: #fff;
+    display: block;
+    transition: 0.4s color;
+}
+
+.nav-links .nav-link:hover {
+    color: black;
+}
+
+.nav-links .nav-icon {
+    display: none;
+}
+
+.logo-box .logo:hover {
+    color: black;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 3rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 9.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 102rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 113rem;
+        margin: 3rem;
+        font-size: 2.3rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: discs;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 86.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 100rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1393px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 81rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 100rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1353px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 77.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 101rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1311px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 73.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 102rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1293px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.8rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 78rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 102rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 75rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 102rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 71.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 105rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1208px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 69.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 107rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1167px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 66rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 109rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1134px) {
+
+    html {
+        font-size: 9.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 66rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 108rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 64rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 106rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 60rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 110rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 5rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 56rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 112.5rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 67rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 107.5rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 5.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 62.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 111.5rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 66rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 111rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 61rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 116rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 861px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        margin-top: 0rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 57rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 118rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: dis;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 838px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 3.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        margin-top: 0rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 54rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 118rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 8px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 54rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 117rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+        list-style: disc;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 3.8rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+        margin-left: 2rem;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 45rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+        text-align: right;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 119rem;
+        margin: 3rem;
+        font-size: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 50rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 119rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        margin-top: 4rem;
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+
+    html {
+        font-size: 6px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 6px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 47.5rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 118rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+
+    html {
+        font-size: 6px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+        margin-left: 4.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        margin-left: 0.7rem;
+        padding-top: 2rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        bottom: 20px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+    }
+
+    .link {
+        float: right;
+    }
+
+    .link .links {
+        float: left;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 2rem;
+    }
+
+    .baslik {
+        margin-right: 39rem;
+    }
+
+    .video {
+        color: #fff;
+        margin-right: 1.5rem;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 121rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    html {
+        font-size: 5.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 6px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+        list-style: none;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 16.5rem;
+    }
+
+    .video {
+        color: #fff;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 152rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    html {
+        font-size: 5.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+        list-style: none;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 11.3rem;
+    }
+
+    .video {
+        color: #fff;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 157rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+        margin-top: 7.7rem;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    html {
+        font-size: 5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 25px ;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .eğitim-kutusu {
+        margin: 3rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        padding-top: 3rem;
+        padding-bottom: 1.5rem;
+    }
+
+    .link {
+        float: right;
+        list-style: none;
+    }
+
+    .link .links {
+        float: left;
+    }
+
+    .baslik {
+        margin-right: 11.3rem;
+    }
+
+    .video {
+        color: #fff;
+    }
+
+    .text-field {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        height: 173rem;
+        margin: 3rem;
+        font-size: 2rem;
+    }
+
+    .text {
+        margin: 4rem;
+        padding-top: 4rem;
+    }
+
+    .link-area {
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        border-radius: 8px;
+        margin: 3rem;
+        height: 50rem;
+    }
+
+    .link-items {
+        float: left;
+    }
+
+    .link-item {
+        margin: 3.5rem;
+        margin-left: 4rem;
+        font-size: 2rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+        margin-top: 5rem;
+    }
+
+    footer p {
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+

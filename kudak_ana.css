@@ -1,0 +1,6180 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: #fff;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.clearfix::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.container {
+    width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+nav {
+    width: 100%;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.logo-box {
+    float: left;
+}
+
+.logo-box .logo {
+    margin-left: 4.5rem;
+    font-size: 2.1rem;
+    color: #fff;
+    transition: 0.4s color;
+}
+
+.nav-links {
+    float: right;
+}
+
+.nav-links .nav-item {
+    float: left;
+    margin-left: 4.2rem;
+}
+
+.nav-links .nav-link {
+    font-size: 2.1rem;
+    color: #fff;
+    display: block;
+    transition: 0.4s color;
+}
+
+.nav-links .nav-link:hover {
+    color: black;
+}
+
+.nav-links .nav-icon {
+    display: none;
+}
+
+.logo-box .logo:hover {
+    color: black;
+}
+
+.kudak-image {
+    background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+    background-position: center;
+    background-size: cover;
+    position: absolute;
+    height: 69.5rem;
+    width: 100%;
+}
+
+.kudak-logo {
+    position: relative;
+    margin: 0.5rem;
+    float: left;
+    font-size: 1rem;
+    width: 12rem;
+    height: 12rem;
+}
+
+.ku-logo {
+    position: relative;
+    float: right;
+    width: 22rem;
+    height: 8rem;
+    float: right;
+    margin: 0.5rem;
+}
+
+.location {
+    padding-top: 70rem;
+}
+
+.location .maps-font {
+    color: black;
+    font-size: 2.1rem;
+    margin-left: 7rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+iframe {
+    width: 100%;
+}
+
+.bio {
+    height: 38rem;
+    font-size: 2rem;
+    padding-top: 2.5rem;
+    margin: 2rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+}
+
+.bio h2 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    text-align: center;
+}
+
+.bio .bio-yazi{
+    text-align: center;
+    margin-left: 4rem;
+    margin-right: 4rem;
+    font-size: 2.2rem;
+}
+
+.reports {
+    height: 31rem;
+    margin: 2rem;
+}
+
+.antalya {
+    height: 31rem;
+    width: 49%;
+    float: left;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+    display: block;
+}
+
+.sakarya {
+    height: 31rem;
+    width: 49%;
+    float: right;
+    background-color: rgb(119, 5, 5);
+    color: #fff;
+    display: block;
+}
+
+.antalya-baslik {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.sakarya-baslik {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.antalya-yazi {
+    font-size: 2.2rem;
+    line-height: 2.5;
+    text-align: center;
+    margin-top: 4rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.sakarya-yazi {
+    margin-top: 4rem;
+    text-align: center;
+    font-size: 2.2rem;
+    line-height: 2.5;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+@media only screen and (max-width: 2560px) {
+
+    html {
+        font-size: 16px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 3rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 9.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 36rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.3rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1440px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 38rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1393px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 7.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1353px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1311px) {
+
+    html {
+        font-size: 10px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 2rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 44rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1293px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.8rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 33rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 32rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1230px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 6rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 32rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 31rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 31rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1208px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 31rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 30rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 30rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1167px) {
+
+    html {
+        font-size: 9.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+        margin-left: 0.5rem;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1134px) {
+
+    html {
+        font-size: 9.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 38rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35.5rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35.5rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1102px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.1rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+
+    html {
+        font-size: 9px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 43rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    html {
+        font-size: 8px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 5.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 930px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.4rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 5.4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 890px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.7rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 861px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        margin-top: 0rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 40rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio p{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 838px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 3.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: right;
+    }
+
+    .nav-links .nav-item {
+        float: left;
+        margin-left: 4rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        margin-top: 0rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 42rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio p{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 36rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 35rem;
+        width: 49%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 35rem;
+        width: 49%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 0rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 837px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+        margin-left: 0.7rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 10px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: #fff;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 43rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 48rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 25rem;
+        width: 100%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 20rem;
+        width: 100%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 45rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 47rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 25rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 20rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 744px) {
+
+    html {
+        font-size: 7.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+        padding-top: 2rem;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 7px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 43rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 35rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 30rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 22rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.3rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: #fff;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 70rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 35rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 25rem;
+        width: 100%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 20rem;
+        width: 100%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 675px) {
+
+    html {
+        font-size: 6.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: #fff;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 75rem;
+        font-size: 2rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 4rem;
+        margin-right: 4rem;
+        font-size: 2.2rem;
+    }
+
+    .reports {
+        height: 35rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 25rem;
+        width: 100%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 20rem;
+        width: 100%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 4rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 633px) {
+
+    html {
+        font-size: 6px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 39rem;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        float: left;
+        margin-left: 0rem;
+    }
+
+    .reports {
+        height: 40rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 28rem;
+        width: 100%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 23rem;
+        width: 100%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 15rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+
+    html {
+        font-size: 6px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.9rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        text-align: left;
+        margin-left: 4.5rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-item .nav-icon {
+        display: block;
+        position: absolute;
+        padding-bottom: 5rem;
+    }
+
+    .nav-links.responsive li:not(:first-child){
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: rem;
+        font-size: 2rem;
+        text-align: center;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .bio .bio-yazi{
+        float: left;
+        margin-left: 0rem;
+    }
+
+    .reports {
+        height: 40rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 28rem;
+        width: 100%;
+        float: left;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+        margin-bottom: 2rem;
+    }
+
+    .sakarya {
+        height: 23rem;
+        width: 100%;
+        float: right;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        margin-left: 4rem;
+        margin-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        margin-top: 15rem;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    html {
+        font-size: 5.5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 56rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 5rem;
+        font-size: 2.2rem;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .reports {
+        height: 51rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 33rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 28rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 375px) {
+
+    html {
+        font-size: 5.2px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 57rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 5rem;
+        font-size: 2.2rem;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .reports {
+        height: 51rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 33rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 28rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+
+    html {
+        font-size: 5px;
+    }
+
+    .clearfix::after {
+        content: "";
+        display: block;
+        clear: both;
+    }
+
+    .container {
+        width: 100%;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 0.5rem;
+        padding-right: 0.5rem;
+    }
+
+    nav {
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        padding-top: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .logo-box {
+        float: none;
+        text-align: left;
+    }
+
+    .logo-box .logo {
+        margin-left: 4.5rem;
+        font-size: 2.1rem;
+        color: #fff;
+        transition: 0.4s color;
+    }
+
+    .nav-links {
+        float: none;
+    }
+
+    .nav-links .nav-item {
+        float: none;
+        margin-left: 4.2rem;
+    }
+
+    .nav-links .nav-link {
+        font-size: 2.1rem;
+        color: #fff;
+        display: block;
+        transition: 0.4s color;
+    }
+
+    .nav-links .nav-link:hover {
+        color: black;
+    }
+
+    .nav-links .nav-icon {
+        display: block;
+        position: absolute;
+        top: 5px;
+        right: 25px;
+    }
+
+    .nav-links.responsive li:not(:first-child) {
+        display: none;
+    }
+
+    .logo-box .logo:hover {
+        color: black;
+    }
+
+    .kudak-image {
+        background-image: url(./Görseller/Erciyes-zirve-980x520.jpeg);
+        background-position: center;
+        background-size: cover;
+        position: absolute;
+        height: 69.5rem;
+        width: 100%;
+    }
+
+    .kudak-logo {
+        position: relative;
+        margin: 0.5rem;
+        float: left;
+        font-size: 1rem;
+        width: 12rem;
+        height: 12rem;
+    }
+
+    .ku-logo {
+        position: relative;
+        float: right;
+        width: 22rem;
+        height: 8rem;
+        float: right;
+        margin: 0.5rem;
+    }
+
+    .location {
+        padding-top: 70rem;
+    }
+
+    .location .maps-font {
+        color: black;
+        font-size: 2.1rem;
+        margin-left: 7rem;
+        padding-top: 2rem;
+        padding-bottom: 2rem;
+    }
+
+    iframe {
+        width: 100%;
+    }
+
+    .bio {
+        height: 67rem;
+        padding-top: 2.5rem;
+        margin: 2rem;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+    }
+
+    .bio .bio-yazi{
+        text-align: center;
+        margin-left: 5rem;
+        font-size: 2.2rem;
+    }
+
+    .bio h2 {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        text-align: center;
+    }
+
+    .reports {
+        height: 60rem;
+        margin: 2rem;
+    }
+
+    .antalya {
+        height: 38rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .sakarya {
+        height: 32rem;
+        width: 100%;
+        background-color: rgb(119, 5, 5);
+        color: #fff;
+        display: block;
+    }
+
+    .antalya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .sakarya-baslik {
+        margin-top: 5rem;
+        text-align: center;
+    }
+
+    .antalya-yazi {
+        font-size: 2.2rem;
+        line-height: 2.5;
+        text-align: center;
+        margin-top: 4rem;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    .sakarya-yazi {
+        margin-top: 4rem;
+        text-align: center;
+        font-size: 2.2rem;
+        line-height: 2.5;
+        padding-left: 4rem;
+        padding-right: 4rem;
+    }
+
+    footer {
+        color: #fff;
+        background-color: black;
+    }
+
+    footer p{
+        padding: 1rem;
+        font-size: 2rem;
+        margin-left: 6rem;
+    }
+}
